@@ -1,2 +1,4 @@
 language: ruby
-operating system: windows
+tags:
+    - api
+    - ui
