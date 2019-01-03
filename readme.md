@@ -1,6 +1,6 @@
 # Your First Cucumber Specs
 
-## Install Ruby and Bundler
+## Install Ruby and Bundler on Windows
 Find an installation from https://rubyinstaller.org/downloads/ . I chose to download the installer with devkit, version 2.5.3-1 (x86). I also chose to install the msys2 package (option 1 - msys2 base installation)
 
 After this is done, run the command 
