@@ -18,15 +18,15 @@ end
 #### API ###
 
 Given("we need api data") do
-	@uri = URI.parse('https://jsonplaceholder.typicode.com/users')
+	@uri = URI.parse('https://jsonplaceholder.typicode.com/users')  # parse the url to a Ruby uri 
 end
 
 When("we query the api") do
-	@response = Net::HTTP.get_response(@uri)
+	@response = Net::HTTP.get_response(@uri)    # use Net::HTTP to send a query to the uri
 end
 
 Then("we will receive a valid response") do
-	expect(@response.kind_of? Net::HTTPSuccess).to eq(true)
+	expect(@response.kind_of? Net::HTTPSuccess).to eq(true) ## validate that we received a response
 end
 
 ### Unit ###

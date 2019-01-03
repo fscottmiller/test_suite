@@ -5,8 +5,7 @@ Scenario:
 	Given we are on google.com
 	When we search for github
 	Then we will see github in the search results
-	
-	
+
 @api
 Scenario:
 	Given we need api data
