@@ -1,0 +1,95 @@
+[
+  {
+    "uri": "features/sample.feature",
+    "id": "search-google",
+    "keyword": "Feature",
+    "name": "Search google",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "search-google;run-unit-tests.",
+        "keyword": "Scenario",
+        "name": "Run unit tests.",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@unit",
+            "line": 15
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20994
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "code requires unit tests before deployment",
+            "line": 17,
+            "output": [
+              "we always test our code"
+            ],
+            "match": {
+              "location": "features/steps/step_definition.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54583
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "new code is checked in",
+            "line": 18,
+            "output": [
+              "new code is in!"
+            ],
+            "match": {
+              "location": "features/steps/step_definition.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15862
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "unit tests will run",
+            "line": 19,
+            "output": [
+              "running unit tests here"
+            ],
+            "match": {
+              "location": "features/steps/step_definition.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13996
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9330
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

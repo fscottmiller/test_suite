@@ -40,13 +40,13 @@ Then("unit tests will run") do
     puts "running unit tests here"
 end
     
-### Security ###
-Given("we are on a login page") do
-    puts "checking security"
-end
-When("we enter an incorrect password") do
-    puts "attempting login with bad password"
-end
-Then("we will not be able to log in") do
-    puts "access denied"
-end
+## Security ###
+# Given("we are on a login page") do
+    # puts "checking security"
+# end
+# When("we enter an incorrect password") do
+    # puts "attempting login with bad password"
+# end
+# Then("we will not be able to log in") do
+    # puts "access denied"
+# end

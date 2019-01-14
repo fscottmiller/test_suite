@@ -1,0 +1,73 @@
+[  
+   {  
+      "keyword":"Feature",
+      "name":"Search google",
+      "tags":[  
+
+      ],
+      "location":"features/sample.feature:1",
+      "status":"passed",
+      "elements":[  
+         {  
+            "type":"scenario",
+            "keyword":"Scenario",
+            "name":"Query a sample API.",
+            "tags":[  
+               "api"
+            ],
+            "location":"features/sample.feature:10",
+            "steps":[  
+               {  
+                  "keyword":"Given",
+                  "step_type":"given",
+                  "name":"we need api data",
+                  "location":"features/sample.feature:11",
+                  "match":{  
+                     "location":"features/steps/step_definition.py:28",
+                     "arguments":[  
+
+                     ]
+                  },
+                  "result":{  
+                     "status":"passed",
+                     "duration":0.0009987354278564453
+                  }
+               },
+               {  
+                  "keyword":"When",
+                  "step_type":"when",
+                  "name":"we query the api",
+                  "location":"features/sample.feature:12",
+                  "match":{  
+                     "location":"features/steps/step_definition.py:33",
+                     "arguments":[  
+
+                     ]
+                  },
+                  "result":{  
+                     "status":"passed",
+                     "duration":0.1258399486541748
+                  }
+               },
+               {  
+                  "keyword":"Then",
+                  "step_type":"then",
+                  "name":"we will receive a valid response",
+                  "location":"features/sample.feature:13",
+                  "match":{  
+                     "location":"features/steps/step_definition.py:37",
+                     "arguments":[  
+
+                     ]
+                  },
+                  "result":{  
+                     "status":"passed",
+                     "duration":0.0004930496215820312
+                  }
+               }
+            ],
+            "status":"passed"
+         }
+      ]
+   }
+]

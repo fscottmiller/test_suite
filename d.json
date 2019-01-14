@@ -1,0 +1,83 @@
+[
+  {
+    "uri": "features/sample.feature",
+    "id": "search-google",
+    "keyword": "Feature",
+    "name": "Search google",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "search-google;run-security-tests.",
+        "keyword": "Scenario",
+        "name": "Run security tests.",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@security",
+            "line": 21
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82575
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "we are on a login page",
+            "line": 23,
+            "match": {
+              "location": "features/sample.feature:23"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "we enter an incorrect password",
+            "line": 24,
+            "match": {
+              "location": "features/sample.feature:24"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "we will not be able to log in",
+            "line": 25,
+            "match": {
+              "location": "features/sample.feature:25"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13529
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
